@@ -19,7 +19,7 @@ app.use(helmet());
 app.all('*', (req, res, next) => {
 	// CORS headers
 	res.header(
-		'Access-Control-Allow-Origin','https://shop-app-api.herokuapp.com'//security.getAccessControlAllowOrigin()
+		'Access-Control-Allow-Origin','https://shop-app-app.herokuapp.com'//security.getAccessControlAllowOrigin()
 	);
 	res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
 	res.header('Access-Control-Allow-Credentials', 'true');
